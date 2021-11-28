@@ -1,0 +1,9 @@
+#!/bin/bash
+
+xsetroot -solid "#0F0F0F"
+
+while true
+do
+	xsetroot -name "$(date +" %I:%M %p  %D ")"
+	sleep 10s
+done

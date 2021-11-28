@@ -1,0 +1,20 @@
+# Source this file from ~/.bashrc
+
+alias vi="nvim"
+
+alias top="htop"
+
+export VISUAL=nvim
+export EDITOR="$VISUAL"
+
+# Combine cd and ls into cl
+cl() {
+    if [[ -z "$1" ]]
+    then
+        cd
+    else
+        cd "$1"
+    fi
+
+    ls
+}
