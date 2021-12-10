@@ -4,6 +4,7 @@ require('treesitter')
 require('tele')
 require('completion')
 require('keybinds')
+require('alpha_greeter')
 
 local set = vim.opt
 

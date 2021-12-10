@@ -43,8 +43,6 @@ Plug 'saadparwaiz1/cmp_luasnip'
 Plug 'L3MON4D3/LuaSnip'
 Plug 'williamboman/nvim-lsp-installer'
 
-Plug('pradyungn/Mountain', { ['rtp'] = 'vim' })
-
 Plug 'Raimondi/delimitMate'
 
 Plug('nvim-treesitter/nvim-treesitter', { ['do'] = ':TSUpdate' })
@@ -52,6 +50,8 @@ Plug('nvim-treesitter/nvim-treesitter', { ['do'] = ':TSUpdate' })
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 
+Plug('pradyungn/Mountain', { ['rtp'] = 'vim' })
 Plug 'cj/vim-webdevicons'
+Plug 'goolord/alpha-nvim'
 
 vim.call('plug#end')
