@@ -4,6 +4,8 @@ alias vi="nvim"
 
 alias top="htop"
 
+alias fetch="clear; neofetch"
+
 export VISUAL=nvim
 export EDITOR="$VISUAL"
 

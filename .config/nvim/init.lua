@@ -5,6 +5,8 @@ require('tele')
 require('completion')
 require('keybinds')
 require('alpha_greeter')
+require('wilder')
+require('nvim-autopairs').setup{}
 
 local set = vim.opt
 
@@ -23,6 +25,9 @@ set.relativenumber = true
 -- Command completion
 
 vim.cmd("set wildoptions+=pum")
+
+-- Disable wildmenu
+set.wildmenu = false
 
 -- Disable netrw
 

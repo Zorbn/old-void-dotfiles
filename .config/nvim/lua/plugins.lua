@@ -43,7 +43,8 @@ Plug 'saadparwaiz1/cmp_luasnip'
 Plug 'L3MON4D3/LuaSnip'
 Plug 'williamboman/nvim-lsp-installer'
 
-Plug 'Raimondi/delimitMate'
+Plug 'windwp/nvim-autopairs'
+Plug('gelguy/wilder.nvim', { ['do'] = ':UpdateRemotePlugins' })
 
 Plug('nvim-treesitter/nvim-treesitter', { ['do'] = ':TSUpdate' })
 
