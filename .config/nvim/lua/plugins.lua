@@ -51,8 +51,7 @@ Plug('nvim-treesitter/nvim-treesitter', { ['do'] = ':TSUpdate' })
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 
-Plug('pradyungn/Mountain', { ['rtp'] = 'vim' })
-Plug 'cj/vim-webdevicons'
+Plug('folke/tokyonight.nvim', { ['branch'] = 'main' })
 Plug 'goolord/alpha-nvim'
 
 vim.call('plug#end')

@@ -12,11 +12,11 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "Hack Nerd Font Mono:style=Regular:size=12" };
 static const char dmenufont[]       = "Hack Nerd Font Mono:style=Regular:size=12";
-static const char col_gray1[]       = "#0F0F0F";
-static const char col_gray2[]       = "#262626";
-static const char col_gray3[]       = "#4C4C4C";
-static const char col_gray4[]       = "#F0F0F0";
-static const char col_accent[]        = "#AC8AAC";
+static const char col_gray1[]       = "#1A1B26";
+static const char col_gray2[]       = "#24283B";
+static const char col_gray3[]       = "#414868";
+static const char col_gray4[]       = "#C0CAF5";
+static const char col_accent[]      = "#F7768E";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },

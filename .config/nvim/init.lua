@@ -11,8 +11,8 @@ require('nvim-autopairs').setup{}
 local set = vim.opt
 
 vim.cmd("set background=dark")
-vim.cmd("colorscheme mountain")
-vim.cmd("let g:enable_mountain_statusline = 1")
+vim.g.tokyonight_style = "night"
+vim.cmd("colorscheme tokyonight")
 
 set.swapfile = false
 
